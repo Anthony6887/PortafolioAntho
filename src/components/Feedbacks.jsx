@@ -56,7 +56,7 @@ const Feedbacks = () => {
               <h2 className={styles.sectionHeadText}>CV</h2>
             </div>
             <div className="ml-[400px]">
-              <a className="bg-red-600 p-5 rounded-lg flex justify-center items-center" href="https://drive.google.com/file/d/17tKYTv5oSfKHWLTIlTblBH-CBp81gJH-/view?usp=drive_link"> Resume </a>
+              <a className="bg-red-600 p-5 rounded-lg flex justify-center items-center" href="https://drive.google.com/file/d/17tKYTv5oSfKHWLTIlTblBH-CBp81gJH-/view?usp=sharing"> Resume </a>
             </div>
           </div>
         </motion.div>

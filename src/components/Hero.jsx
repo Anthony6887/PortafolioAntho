@@ -29,10 +29,10 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/anthony-solis-3123191b1/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-white hover:text-[#915EFF] text-[100px]" />
             </a>
-            <a href="https://www.linkedin.com/in/yourprofile/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/anthos6884/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-white hover:text-[#915EFF] text-[100px]" />
             </a>
-            <a href="https://www.linkedin.com/in/yourprofile/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/antho.solis/" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="text-white hover:text-[#915EFF] text-[100px]" />
             </a>
           </div>
