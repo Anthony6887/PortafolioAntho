@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a trained software developer with experience in TypeScript 
+        I am a trained software developer with experience in TypeScript
         and experience in frameworks such as React, Node.js and Angular.
         I learn quickly and collaborate closely with others to create efficient,
         scalable and easy-to-use solutions that solve real-world problems.
