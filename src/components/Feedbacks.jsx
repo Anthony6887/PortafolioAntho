@@ -47,18 +47,21 @@ const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-auto`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          {/*           <p className={styles.sectionSubText}>What others say</p> */}
+          <div className="flex">
+            <div className="">
+              <h2 className={styles.sectionHeadText}>CV</h2>
+            </div>
+            <div className="ml-[400px]">
+              <a className="bg-red-600 p-5 rounded-lg flex justify-center items-center" href="https://drive.google.com/file/d/17tKYTv5oSfKHWLTIlTblBH-CBp81gJH-/view?usp=drive_link"> Resume </a>
+            </div>
+          </div>
         </motion.div>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
-        ))}
-      </div>
+
     </div>
   );
 };

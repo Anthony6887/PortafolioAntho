@@ -25,6 +25,17 @@ import {
   threejs,
 } from "../assets";
 
+import academy from "../assets/academy.jpg";
+import concurso from "../assets/concurso.png";
+import gourmetgo from "../assets/gourmetgol.png";
+import gourmetgom from "../assets/gourmetgom.png";
+import simuladorprestamos from "../assets/simuladorprestamos.png";
+import registro from "../assets/registro.png";
+import gad from "../assets/gad.png";
+import bomberos from "../assets/bomberos.png";
+import angular from "../assets/tech/angular.png";
+
+
 export const navLinks = [
   {
     id: "about",
@@ -46,7 +57,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,9 +65,9 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Angular Developer",
     icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -81,8 +92,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "Tailwind CSS",
@@ -116,57 +127,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Intern",
+    company_name: "GAD Municipal de San Pedro de Pelileo",
+    icon: gad,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "February - June 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Support the department's professionals in various tasks related to the management and maintenance of the institution's computer systems and technological infrastructure.",
+      "Assist in resolving technical issues related to hardware and software for GAD staff.",
+      "Assist in the configuration and installation of computer equipment, including computers, printers, and network devices.",
+      "Collaborate on specific IT department projects, such as the implementation of new applications, system upgrades, and IT infrastructure improvements.",
+      "Participate in system and application testing to ensure proper functioning before deployment."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Auditor",
+    company_name: "Cuerpo Bomberos Ambato",
+    icon: bomberos,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "October 2023 - February 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Responsible for evaluating and ensuring that the institution's information and technology systems are secure, efficient and effective. Their role is crucial to maintaining the integrity, confidentiality and availability of information, as well as ensuring that technology adequately supports the organization's operations.",
+      "Review information security policies to ensure they are appropriate and up-to-date.",
+      "Evaluate access controls to sensitive systems and data to ensure that only authorized personnel can access the information.",
+      "Ensure that IT systems and processes comply with applicable local and international regulations, such as the Data Protection Law and information security standards (ISO/IEC 27001)."
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -193,63 +179,42 @@ const testimonials = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  }
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Virtual Academy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The English Academy project in Unreal Engine is an innovative initiative that aims to develop a highly interactive and visually attractive English learning platform, using the Unreal Engine video game engine. This virtual academy will offer an immersive environment where students can learn English effectively through realistic scenarios.",
     tags: [
       {
-        name: "react",
+        name: "Unreal Engine",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "BluePrint",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: academy,
+    source_code_link: "https://github.com/Eduardlink/VirtualAcademy_UnrealEngine.git/",
   },
   {
-    name: "Job IT",
+    name: "Evento_Cultural",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The cultural event project with alternatives, true/false and clues for schools is an initiative designed to promote interactive learning and cultural knowledge among students. This event will take place in a contest format, where participants will answer multiple, true/false questions and use clues to help them find the correct answers.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "js",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +222,95 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: concurso,
+    source_code_link: "https://github.com/Anthony6887/Evento_Cultural.git/",
+  },
+  {
+    name: "GourmetGo Web",
+    description:
+      "The web restaurant management project is an initiative aimed at developing a comprehensive web platform for the administration and efficient operation of restaurants. This tool is designed for owners, managers and restaurant personnel, offering functionalities that optimize inventory management, orders, reservations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      }, {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: gourmetgo,
+    source_code_link: "https://github.com/PSW-GourtmetGO/GourtmetGo-Web-FrontEnd.git/",
+  },
+  {
+    name: "GourmetGo Movil",
+    description:
+      "The mobile restaurant management project is an initiative aimed at developing a comprehensive mobile application that facilitates the daily administration and operation of restaurants. This tool is designed for owners, managers and restaurant personnel, offering functionalities that optimize inventory management, orders, reservations, personal and sales, all from a mobile device.",
+    tags: [
+      {
+        name: "Ionic",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gourmetgom,
+    source_code_link: "https://github.com/PSW-GourtmetGO/GourmetGo-Movil-FrontEnd.git/",
+  },
+  {
+    name: "Simulador Prestamos",
+    description:
+      "The loan simulation project with French and German amortization and investments is an initiative that seeks to provide an integral tool for the simulation and analysis of loans and investment strategies. This tool is designed to help students, financial professionals and any person interested in understanding and comparing different methods of loan amortization and evaluating investment opportunities.",
+    tags: [
+      {
+        name: "angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: simuladorprestamos,
+    source_code_link: "https://github.com/Eduardlink/SistemaPrestamos.git/",
+  },
+  {
+    name: "Registro Estudiantes 2023",
+    description:
+      "The 2023 Student Registry Project is an initiative aimed at improving and modernizing the student registration and administration process in educational institutions. This project aims to facilitate the management of the information of the students of their Ingrso to their entry, guarantee an efficient and safe administration of their personal data, it is an initiative aimed at improving.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQLite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "java swing",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: registro,
+    source_code_link: "https://github.com/Eduardlink/RegistroEstudiantes2023.git/",
   },
 ];
 
