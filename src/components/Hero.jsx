@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import yoImage from "../assets/images/yo.png";
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Anthony</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop <br className='sm:block hidden' />
+            I fullstack developer<br className='sm:block hidden' />
             interfaces and web applications
           </p>
           <div className='flex mt-4 space-x-4'>
@@ -29,19 +29,21 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/anthony-solis-3123191b1/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-white hover:text-[#915EFF] text-[100px]" />
             </a>
-            <a href="https://www.instagram.com/anthos6884/" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className="text-white hover:text-[#915EFF] text-[100px]" />
-            </a>
-            <a href="https://www.facebook.com/antho.solis/" target="_blank" rel="noopener noreferrer">
-              <FaFacebook className="text-white hover:text-[#915EFF] text-[100px]" />
-            </a>
           </div>
+          <div>
+            <h1 className={`${styles.heroHeadText} text-white`}>Hobbies</h1>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>Play guitar 🎸</p>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>Play videogames 🎮</p>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>Play Soccer ⚽</p>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>Cycling 🚴</p>
+          </div>
+
         </div>
       </div>
       <div className='absolute right-10 top-[150px]'>
-        <img 
-          src={yoImage} 
-          alt="Anthony" 
+        <img
+          src={yoImage}
+          alt="Anthony"
           className='w-90 h-auto rounded-full'
         />
       </div>

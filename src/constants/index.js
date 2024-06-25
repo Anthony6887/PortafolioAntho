@@ -34,6 +34,32 @@ import registro from "../assets/registro.png";
 import gad from "../assets/gad.png";
 import bomberos from "../assets/bomberos.png";
 import angular from "../assets/tech/angular.png";
+import atahualpa from "../assets/atahualpa.png";
+
+import java from "../assets/pdfs/JavaColombia.pdf";
+import javaimg from "../assets/pdfs/imagenes/java.png";
+
+import seguridad from "../assets/pdfs/Seguridad.pdf";
+import seguridadimg from "../assets/pdfs/imagenes/seguridad.png";
+
+import python from "../assets/pdfs/Python.pdf";
+import pythonimg from "../assets/pdfs/imagenes/python.png";
+
+import datascience from "../assets/pdfs/datascience.pdf";
+import datascienceimg from "../assets/pdfs/imagenes/datascience.png";
+
+import ganador from "../assets/pdfs/ganador.pdf";
+import ganadorimg from "../assets/pdfs/imagenes/ganador.png";
+
+import csei22 from "../assets/pdfs/CSEI22.pdf";
+import csei22img from "../assets/pdfs/imagenes/csei22.png";
+
+import participacion from "../assets/pdfs/participacion.pdf";
+import participacionimg from "../assets/pdfs/imagenes/participacion.png";
+
+import games from "../assets/pdfs/games.pdf";
+import gamesimg from "../assets/pdfs/imagenes/games.png";
+
 
 
 export const navLinks = [
@@ -46,9 +72,22 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "skill",
+    title: "Skills",
+  },
+  {
+    id: "experience",
+    title: "Projects",
+  },
+  {
+    id: "feedback",
+    title: "Certificates",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
+
 ];
 
 const services = [
@@ -151,6 +190,16 @@ const experiences = [
       "Review information security policies to ensure they are appropriate and up-to-date.",
       "Evaluate access controls to sensitive systems and data to ensure that only authorized personnel can access the information.",
       "Ensure that IT systems and processes comply with applicable local and international regulations, such as the Data Protection Law and information security standards (ISO/IEC 27001)."
+    ],
+  },
+  {
+    title: "Vinculación",
+    company_name: "Atahualpa Technical College",
+    icon: atahualpa,
+    iconBg: "#E6DEDD",
+    date: "April - June 2024",
+    points: [
+      "During my time working on a community engagement project at Unidad Educativa Atahualpa, I was involved in computer maintenance and optimizing network infrastructure. I made substantial improvements, such as installing new operating systems to increase the speed and efficiency of the equipment."
     ],
   }
 ];
@@ -314,4 +363,49 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certificates = [
+  {
+    name: "Java Programming",
+    link: java,
+    image: javaimg
+  },
+  {
+    name: "Security Information",
+    link: seguridad,
+    image: seguridadimg
+  },
+  {
+    name: "Python Programming",
+    link: python,
+    image: pythonimg
+  },
+  {
+    name: "Winner Advanced Programming",
+    link: ganador,
+    image: ganadorimg
+  },
+  {
+    name: "Data Science and Machine Learning",
+    link: datascience,
+    image: datascienceimg
+  },
+  {
+    name: "CSEI22",
+    link: csei22,
+    image: csei22img
+  },
+  {
+    name: "Fundamentals of Games Development",
+    link: games,
+    image: gamesimg
+  },
+  {
+    name: "Participation in the HathunSoft event",
+    link: participacion,
+    image: participacionimg
+  },
+
+
+];
+
+export { services, technologies, experiences, testimonials, projects, certificates };
